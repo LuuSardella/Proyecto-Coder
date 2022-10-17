@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;    
+}
+header h1{
+    color:hsl(240, 65%, 33%);
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 200;
+    position: relative;
+    left: 100px;
+    top: 25px;
+    }
+header{
+    background-image: url(../img/logo1.png);
+    background-color:rgb(167, 213, 202);
+    width: 100%;
+    height: 23vh ;
+    background-position: right;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 0;
+    }
+
+header nav ul{
+    list-style: none;
+    color:hsl(240, 65%, 33%);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content:space-evenly; 
+    align-items:flex-end;
+}
+
+
+.información{font-family:'Passions Conflict', cursive;
+            font-size:60px;
+            color: hsl(240, 65%, 33%);
+            background-color: beige;}
+.imagenes{
+    margin: 5px;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.4);
+}
+.fixed{
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+}
+.fila1{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.fila2{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.fila3{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.amigos h4{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    background-color:rgb(167, 213, 202);
+    width: 100%;
+    height: 12vh ;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.amigos{
+    display: flex;
+    justify-content: center;
+}
+
+.Acero{
+    width: 25%;
+    height: 12vh;
+    text-align: center;
+}
+.choco{
+    width: 25%;
+    height: 12vh;
+    text-align: center;
+}
+.Natura{
+    width: 25%;
+    height: 12vh;
+    text-align: center;
+}
+.mapa{
+    position: relative;
+}
+.formulario{
+    margin: 40px;
+    width: 25%;
+    height: 12vh;
+}
