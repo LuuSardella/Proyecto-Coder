@@ -79,7 +79,7 @@ header nav ul li a:hover{
     display:flex;
     justify-content: space-between;
     margin: 10px; */
-}
+
 .amigos h4{
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
@@ -232,7 +232,7 @@ footer{
         font-size: 50px;
         font-weight: 100;
         } 
-        
+    }
         
 
 
@@ -252,3 +252,4 @@ footer{
         background: none;
     }
 }
+
