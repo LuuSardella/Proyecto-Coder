@@ -49,6 +49,7 @@ header nav ul li a:hover{
     border-radius: 10%;
 }
 
+
 .información{font-family:'Passions Conflict', cursive;
             font-size:60px;
             color: hsl(240, 65%, 33%);
@@ -110,13 +111,14 @@ footer{
     height: 12vh;
     text-align: center;
 }
-.mapa{
-    position: relative;
-}
-.formulario{
+/* .formulario{
     margin: 40px;
     width: 25%;
     height: 12vh;
+} */
+
+.mapa{
+    width: 100%;
 }
 
 .Galeria div img{
@@ -203,7 +205,7 @@ footer{
     font-size: 18px;
     text-align: center;
     padding: 5px;
-   }
+}
 
 @media screen and (max-width:900px){
     .Galeria{
@@ -226,12 +228,11 @@ footer{
     .grid-item-mili{
         grid-row:unset;
     }
-   header h1{
+    header h1{
         font-size: 50px;
         font-weight: 100;
         } 
         
-       
         
 
 
@@ -249,4 +250,5 @@ footer{
 @media screen and (max-width:500px){
     header{
         background: none;
+    }
 }
