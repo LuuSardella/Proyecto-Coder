@@ -1,0 +1,141 @@
+
+// MAIN DEL INDEX
+
+.imagen-inicio {
+    object-fit: contain;
+    overflow: hidden;
+    display: flex;
+    background-color: rgb(167, 213, 202);
+    justify-content: center;
+    gap: 10px;
+    height: 400px;
+    img {
+        box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.4);
+    }}
+.informacion1{
+    background-color: rgb(167, 213, 202);
+    font-family: 'Passions Conflict', cursive;
+    font-size: 50px;
+    color: hsl(240, 65%, 33%);
+    width: 100%;
+    }
+.video{
+    background-color: rgb(167, 213, 202);
+    }
+
+    // MAIN DE PRODUCTOS
+
+.Galeria {
+    background-color: rgb(167, 213, 202);
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 300px;
+    gap: 30px;  
+    width: 100%;
+    position: relative;
+    top: 240px;
+    .grid-item{
+        position: relative;
+        div img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h3 {
+            position: absolute;
+            bottom: 0;
+            color: rgb(167, 213, 202);
+            background-color: rgba(0, 0, 0, 0.425);
+            width: 97.5%;
+            font-size: 18px;
+            text-align: center;
+            padding: 5px;
+        }
+        
+    .grid-item-img8 {
+        grid-column: span 2;
+        position: relative;
+    }
+    
+    .grid-item-img4 {
+        grid-row: span 2;
+        position: relative;
+    }    
+    .grid-item-mili {
+        grid-row: span 2;
+        position: relative;
+    }
+    .grid-item-huracan {
+        grid-row: span 2;
+        position: relative;
+    }
+}
+}
+
+    // MAIN DE AMIGOS
+
+    .información {
+        background-color: rgb(167, 213, 202);
+        font-family: 'Passions Conflict', cursive;
+        font-size: 50px;
+        color: hsl(240, 65%, 33%);
+        width: 100%;
+        position: relative;
+        top: 175px;
+    }
+
+    .amigos {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(167, 213, 202);
+        height: 40vh;;
+        position: relative;
+        top: 185px;
+        .Acero {
+            width: 25%;
+            height: 12vh;
+            text-align: center;
+        }
+        
+        .choco {
+            width: 25%;
+            height: 12vh;
+            text-align: center;
+        }
+        
+        .Natura {
+            width: 25%;
+            height: 12vh;
+            text-align: center;
+        }
+        p{
+            background-color: rgba(0, 0, 0, 0.456);
+            color: white;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+
+    // MAIN DE SERVICIOS (información igual a amigos)
+
+    .img10{
+        float: right;
+        padding: 2px;
+    }
+
+    // MAIN DE CONTACTO
+
+    .conteiner-fluid{
+        background-color: rgb(167, 213, 202); ;
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        top: 145px;
+        .mapa {
+        width: 100%;
+    }
+}

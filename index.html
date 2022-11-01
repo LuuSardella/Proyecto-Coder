@@ -4,31 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/estilos.css">
     <title>Zu*Sweet</title>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Bienvenidos a ZU*SWEET</h1>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/Productos.html">Productos</a></li>
-                <li><a href="./pages/servicios.html">Servicios</a></li>
-                <li><a href="./pages/Acercade.html">Amigos</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
+    <header x-data="{ open: false }" class="header">
+        <div class="header__logo">
+            <img src="./img/logo1.png" alt="">
+            <h1>ZU*SWEET</h1>
+        </div>
+        <button class="header__button-nav--open" x-on:click="open = true">Menú</button>
+        <nav class="nav" x-bind:class="open ? 'nav--show' : ''">
+            <div class="nav__button" x-on:click="open = false">
+                <button class="header__button-nav--close">Close</button>
+            </div>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./pages/Productos.html">Productos</a></li>
+                    <li><a href="./pages/servicios.html">Servicios</a></li>
+                    <li><a href="./pages/Acercade.html">Amigos</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
+
+    
     <main>
-        <section class="imagenes">
-            <div class=>
-                <img src="./img/Imagen Inicio.png" alt=""width="400" height="300"/>
-                <img src="./img/pexels-alina-vilchenko-2101704.jpg" alt=""width="400" height="300">
-                <img src="./img/pexels-deeana-arts-1646953.jpg" alt=""width="400" height="300">   
+        <section>
+            <div class="imagen-inicio">
+                <img class="imagen-inicio1" src="./img/Imagen-Inicio.png" alt=""/>
+                <img src="./img/pexels-alina-vilchenko-2101704.jpg" alt="">
+                <img class="imagen-inicio1" src="./img/pexels-deeana-arts-1646953.jpg" alt=""> 
             </div>    
         </section>
-        <section class="información"> 
+        <section class="informacion1"> 
          <p>Somos un emprendimiento surgido del amor al arte, armamos regalos personalizados y a la medida de cada cliente. También te ayudamos y asesoramos a que el obsequio sea único y especial para tu agasajado. Tenemos en cuenta el presupuesto destinado y te damos ideas. Contactanos, estamos para ayudarte.
          </p>   
         </section>
