@@ -7,6 +7,7 @@ header {
     position: fixed;
     background: rgb(167, 213, 202);
     padding: 1rem;
+    top: 0;
     h1 {
         color: hsl(240, 65%, 33%);
         font-size: 50px;
@@ -29,7 +30,7 @@ header {
             position: absolute;
             justify-content:space-around;
             background-color: rgba(0, 0, 0, 0.517);
-            bottom: 0%;
+            top: 0%;
                 li{
                     a{
                         color:hsl(0, 0%, 96%); 
